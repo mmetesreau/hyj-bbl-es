@@ -1,0 +1,40 @@
+###
+POST http://localhost:5000/api/card/add-to-board
+Accept: application/json
+Content-Type: application/json
+
+{ "title" : "title", "description": "description" }
+
+###
+< {%
+    request.variables.set("cardId", "54574257-0d70-43d6-bb89-11a4626c1067")
+%}
+
+PUT http://localhost:5000/api/card/update-content/{{cardId}}
+Accept: application/json
+Content-Type: application/json
+
+{ "title" : "title updated", "description": "description updated" }
+
+###
+< {%
+    request.variables.set("cardId", "54574257-0d70-43d6-bb89-11a4626c1067")
+%}
+
+PUT http://localhost:5000/api/card/move-to-inprogress-column/{{cardId}}
+Accept: application/json
+
+###
+< {%
+    request.variables.set("cardId", "54574257-0d70-43d6-bb89-11a4626c1067")
+%}
+
+PUT http://localhost:5000/api/card/move-to-done-column/{{cardId}}
+Accept: application/json
+
+###
+GET http://localhost:5000/api/card/board
+Accept: application/json
+
+
+

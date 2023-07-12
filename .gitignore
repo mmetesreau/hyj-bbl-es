@@ -1,0 +1,11 @@
+packages
+bin
+obj
+paket-files
+.vscode
+.fake
+.ionide
+.vs
+node_modules
+.idea
+build/.DS_Store

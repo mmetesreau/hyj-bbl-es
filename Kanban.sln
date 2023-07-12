@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Kanban.Board", "Kanban.Board\Kanban.Board.fsproj", "{D3A7E59E-9B4C-4F5B-8564-4233F76E4653}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Kanban.Board.Tests", "Kanban.Board.Tests\Kanban.Board.Tests.fsproj", "{2C9A6E5A-2CD2-4201-B222-D58F2CEDB22D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3A7E59E-9B4C-4F5B-8564-4233F76E4653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A7E59E-9B4C-4F5B-8564-4233F76E4653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A7E59E-9B4C-4F5B-8564-4233F76E4653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A7E59E-9B4C-4F5B-8564-4233F76E4653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9A6E5A-2CD2-4201-B222-D58F2CEDB22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9A6E5A-2CD2-4201-B222-D58F2CEDB22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9A6E5A-2CD2-4201-B222-D58F2CEDB22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9A6E5A-2CD2-4201-B222-D58F2CEDB22D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
